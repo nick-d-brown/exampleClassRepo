@@ -6,6 +6,7 @@
     <title>Student Bio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <script src="main.js"></script>
 
     <style>
@@ -22,7 +23,14 @@
             display: block;
         }
 
-        
+        div.textChange {
+            max-width: 55%;
+            background-color: rgb(164, 192, 216);
+            margin: 5px auto;
+            padding: 8px;
+            text-align: center;
+            display: block;
+        }
 
         h1, h2 {
             font-weight: bold;
@@ -32,7 +40,7 @@
             width: 200px;
             height: 200px;
             background-color: grey;
-            border: 2px solid black;
+            border: 8px solid black;
         }
 
         .contactBold {
@@ -41,45 +49,69 @@
 
         .topBanner {
             width: 85%;
-            background-color: aliceblue;
+            background-color: rgb(215, 227, 238);
             margin: 0 auto;
 
         }
 
+        ul{
+            text-align: center;
+        }
+
+        li {
+            display: inline;
+        }
+
+        p::first-letter {
+            font-weight: bold;
+            font-family: "Great Vibes", cursive;
+            font-size: 3em;
+        }
+       
+
+        hr.style-two {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+         }   
 
     </style>
 
 </head>
 <body>
-    <div class="bodyChange">       
-        <h1 class="topBanner">Student Bio - Nick Brown</h1>
-        <br>
-        <h2>Nick Brown</h2>
-        <img src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAtTAAAAJGFlZjBlOWFjLWRiODItNGFiNS05ODJkLWEwNzVhNzQ2MzI0Mg.jpg" alt="Image of me, Nick Brown.">
-        <br>
-        <p>
-            I am currently a student at the university of Utah Coding Bootcamp. This is where I will cotinue to exmplain things about myself...... Here is some Pirate Ipsum to fill the space for you though! Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's
-            nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway
-            rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring
-            upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay
-            yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to. Trysail Sail ho Corsair red ensign hulk smartly
-            boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters.
-            Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's
-        </p>
-        <p>
-            nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway
-            rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring
-            upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay
-            yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to. Trysail Sail ho Corsair red ensign hulk smartly
-            boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters.
-            Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.
-        </p>
-        <h2>Contact Info:</h2>
-        <ul>
-            <li><span class="contactBold">Email:</span><a href="n.brown.professional@gmail.com" target="_blank">n.brown.professional@gmail.com</a></li>
-            <li><span class="contactBold">GitHub:</span><a href="https://github.com/nick-d-brown" target="_blank"><nick-d-brown/a>nick-d-brown</li>
-            <li><span class="contactBold">Portfolio:</span> Coming Soon</li>
-        </ul>       
+    <div class="bodyChange">    
+        <div class="textChange">
+            <h1 class="topBanner">Student Bio - Nick Brown</h1>
+            <br>
+            <h2>Nick Brown</h2>
+            <img src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAtTAAAAJGFlZjBlOWFjLWRiODItNGFiNS05ODJkLWEwNzVhNzQ2MzI0Mg.jpg" alt="Image of me, Nick Brown.">
+            <br>
+            <hr class="style-two">
+            <p>
+                I am currently a student at the university of Utah Coding Bootcamp. This is where I will cotinue to exmplain things about myself...... Here is some Pirate Ipsum to fill the space for you though! Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's
+                nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway
+                rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring
+                upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay
+                yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to. Trysail Sail ho Corsair red ensign hulk smartly
+                boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters.
+                Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's
+            </p>
+            <p>
+                The nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway
+                rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring
+                upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay
+                yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to. Trysail Sail ho Corsair red ensign hulk smartly
+                boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters.
+                Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.
+            </p>
+            <hr class="style-two">
+            <h2>Contact Info:</h2>
+            <ul>
+                <li><span class="contactBold">Email:</span><a href="n.brown.professional@gmail.com" target="_blank"> n.brown.professional@gmail.com</a> |</li>
+                <li><span class="contactBold">GitHub:</span><a href="https://github.com/nick-d-brown" target="_blank"> nick-d-brown</a> |</li>
+                <li><span class="contactBold">Portfolio:</span> Coming Soon</li>
+            </ul>  
+        </div>
     </div>
 </body>
 </html>
